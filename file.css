@@ -1,0 +1,65 @@
+label {
+     display: block;
+}
+
+.inactive{
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+input{
+	display: block;
+}
+
+body {
+	background: #fff;
+	font: 100%/1.5 georgia;
+	max-width: 60em;
+	margin: 0 auto;
+	color: #333;
+}
+[for="name"]::before,
+[for="email"]::after {
+	content: " *";
+	color: red;
+	font-size: 2em;
+	}
+input{
+transition: .5s;
+}
+
+
+input:hover {
+	padding: .4em .2em;
+	background: #58FAF4
+}
+
+
+body{
+	background: #efefef;
+	min-height: 100%;
+	font: 100%/1.5 helvetica;
+}
+
+label {
+	display: block;
+	margin: 0 0 1em;
+}
+label > input {
+	display: block;
+}
+
+input[type="radio"] + label{
+	display: inline;
+}
+
+input, button {
+	font: inherit;
+}
+fieldset{
+	background: linear-gradient(45deg, #fff, lime);
+}
+

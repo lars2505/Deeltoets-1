@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulier</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Deeltoets 1 artikel" />
+        <meta name="author" content="lars" />
+    </head>
+	<header>
+	    <h1>
+	        CMD Amsterdam - Intranet
+	    </h1>
+	    <p>
+	        Communication and Multimedia Design is een ontwerpopleiding voor interactieve media in Amsterdam.
+	    </p>
+	    <section>
+	        <img src="cmd_icon_letter_c.png" alt="">
+	        <img src="cmd_icon_letter_m.png" alt="">
+	        <img src="cmd_icon_letter_d.png" alt="">
+	    </section>
+	    <nav>
+	        <ul>
+	            <li><a href="#">Home</a></li>
+	            <li><a href="#">Opleiding</a></li>
+	            <li><a href="#">Onderwijsprogramma</a></li>
+	            <li><a href="#">Organisatie</a></li>
+	            <li><a href="#">Stages en projecten</a></li>
+	        </ul>
+	    </nav>
+	    <a href="#">profielpagina Elena Harris</a>
+	</header>
+        <h1>Aanmelden</h1>
+        <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook 
+lopen de studenten stage, in het tweede en afstudeerjaar. 
+CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad 
+Amsterdam.
+Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. 
+Wij nemen zo nodig contact met u op nadat het formulier is verstuurd. 
+Voor vragen of opmerkingen kunt u <a href="https://cmd.dmci.hva.nl/NL/Paginas/Wie-Wat-Waar/wie-wat-waar.aspx">contact</a> met ons op.</p>
+<form>
+    <fieldset>
+        <legend>Contactgegevens</legend>
+        
+        <label for="name">Naam</label>
+        <input type="text" id="name" required>
+        
+        <label for="name">Bedrijf</label>
+        <input type="text" id="company" required>
+        
+        
+        <label for="street">Straat</label>
+        <input type="text" id="street" placeholder="Alleen naam" required>
+        
+        <label for="number">Huisnummer</label>
+        <input type="text" id="number" placeholder="Alleen huisnummer" required>
+        
+        <label for="zip">Postcode</label>
+        <input type="text" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" id="zip" required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+        
+        <label for="tel">Telefoon</label>
+        <input type="tel"  id="tel"/>
+
+        <h2>Ik wil mij aanmelden:</h2>
+        <input type="radio" name="register" value="Project">Voor een project
+        <input type="radio" name="register" value="Stage">Als stagebedrijf 
+
+    </fieldset>
+    
+    <fieldset>
+        <legend> Project </legend>
+        
+        <label for="name">Projectnaam</label>
+        <input type="text" id="project" required>
+        
+        <label for="name">Opdrachtomschrijving</label>
+        <textarea rows="5" cols="50" name="description">
+        </textarea>
+        
+        <label for="name">Doelgroepomschrijving</label>
+         <textarea rows="5" cols="50" name="description">
+        </textarea>
+        
+         <label for="name">Doelstelling</label> 
+         <textarea rows="2" cols="50" name="description">
+        </textarea>
+        <label for="name">Looptijd</label>  
+        <input type="text" id="time" placeholder="Aantal weken"/>
+          
+        <input type="date" value="2010-12-16">
+        
+        <label for="name">Geschikt voor:</label>    
+        
+        <input type="checkbox" name="Eerstejaars Studenten" /> Eerstejaars Studenten
+        <input type="checkbox" name="Tweedejaars Studenten" /> Tweedejaars Studenten
+        <input type="checkbox" name="Derdejaars Studenten" /> Derdejaars Studenten
+        <input type="checkbox" name="Vierdejaars Studenten" /> Vierdejaars Studenten
+        <input type="checkbox" name="Onbekend" /> Onbekend
+   
+   	</fieldset>
+        
+     <fieldset> 
+        <legend> Stage </legend>
+        
+        <label for="name">Geschikt voor:</label>   
+         
+        <input type="checkbox" name="Eerstejaars Studenten" /> Eerstejaars Studenten
+        <input type="checkbox" name="Tweedejaars Studenten" /> Tweedejaars Studenten
+        <input type="checkbox" name="Derdejaars Studenten" /> Derdejaars Studenten
+        <input type="checkbox" name="Afstudeer Studenten" /> Afstudeer Studenten
+        <input type="checkbox" name="Onbekend" /> Onbekend
+        
+        <label for="name">Hoelng is de stage ?</label>  
+        <input type="radio" name="10 weken" /> 10 weken
+        <input type="radio" name="20 weken" /> 20 weken
+        
+         
+        <input type="date" value="2010-12-16">
+        
+         <label for="name">Beschrijving werkzaamheden</label>
+         <textarea rows="5" cols="50" id="description"></textarea>
+        
+        <label for="cname">Bedrijfsnaam</label>
+        <input type="text" id="cname" required>
+        
+        
+        <label for="street">Adres</label>
+        <input type="text" id="straat" placeholder="Naam en nummer" required>
+        
+        
+        <label for="zip">Postcode</label>
+        <input type="text" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" id="postcode"/>
+        
+        <label for="place">Plaats</label>
+        <input type="text" id="place"/>
+        
+        <label for="sector">Sector</label>
+        <input type="text" id="sector"/>
+        
+        <label for="name">Core buisness</label>
+        <input type="text" id="core"/>
+        
+    </fieldset>
+        
+        
+        
+        <input type="submit" name="submit" value="Submit" />
+    
+	</form>
+  </body>
+</html>
